@@ -11,11 +11,11 @@ Supported platforms:
 - Windows 
 - MacOs
 
-## Demo
+## Demo
 
 ![image](https://github.com/ingridwarrior2901/EmpanadaEngine/blob/master/Images/empanada.gif?raw=true)
 
-## How To Run 
+## How To Run 
 
 - MacOS: you must install freetype <https://brewinstall.org/install-freetype-on-mac-with-brew/> then open EmpanadaEngine Xcode project, build and run.
 
