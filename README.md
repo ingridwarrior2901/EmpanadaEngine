@@ -1,2 +1,4 @@
-# EmpanadaEngine
-C++ 2D game Engine for Windows, macOS
+
+# Empanada Engine
+
+C++ Game engine 

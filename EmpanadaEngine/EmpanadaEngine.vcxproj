@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmpanadaEngine\Core\Audio\EMPAudioManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Audio\IEMPAudio.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioBufferOpenAL.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioOpenAL.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\EMPAnimationComponent.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\EMPCollisionComponent.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\EMPTransformComponent.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\IEMPComponent.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPCamara.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPGameObject.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPMaterial.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPMesh.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPModel.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPSprite.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\IEMPEntity.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Events\EMPEventManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Game\EMPGameApp.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Game\EMPTimerGLFW.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\GUI\EMPButton.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\GUI\EMPFontManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\GUI\EMPText.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Inputs\EMPInputGLFW.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Inputs\EMPInputManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Render\EMPRenderManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Render\IEMPBuffer.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Render\IEMPTexture.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Render\OpengGL\EMPBufferOpenGL.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Render\OpengGL\EMPTextureOpenGL.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Scenes\EMPSceneManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Scenes\IEMPScene.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Shaders\EMPShaderOpenGL.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Shaders\IEMPShader.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Windows\EMPWindowGLFW.cpp" />
+    <ClCompile Include="EmpanadaEngine\Core\Windows\EMPWindowManager.cpp" />
+    <ClCompile Include="EmpanadaEngine\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EmpanadaEngine\Core\Audio\EMPAudioManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Audio\IEMPAudio.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Audio\IEMPAudioBuffer.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioBufferOpenAL.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioOpenAL.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\EMPAnimationComponent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\EMPCollisionComponent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\EMPTransformComponent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\IEMPComponent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPCamara.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPGameObject.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPMaterial.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPMesh.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPModel.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPSprite.h" />
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\IEMPEntity.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPEvent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPEventDelegate.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPEventManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPKeyEvent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPMouseEvent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPWindowEvent.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPGameApp.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPGameConfiguration.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPMacros.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPSinglenton.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPTimerGLFW.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPTimerManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Game\IEMPTimer.h" />
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPButton.h" />
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPCharacter.h" />
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPFontManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPText.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\EMPInputFactory.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\EMPInputGLFW.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\EMPInputManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\IEMPInput.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Render\EMPRenderManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Render\IEMPBuffer.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Render\IEMPTexture.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Render\OpengGL\EMPBufferOpenGL.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Render\OpengGL\EMPTextureOpenGL.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Scenes\EMPSceneManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Scenes\IEMPScene.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Shaders\EMPShaderOpenGL.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Shaders\EMPVertex.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Shaders\IEMPShader.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Utils\EMPCollision.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Utils\EMPColor.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowConfiguration.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowFactory.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowGLFW.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowManager.h" />
+    <ClInclude Include="EmpanadaEngine\Core\Windows\IEMPWindow.h" />
+    <ClInclude Include="EmpanadaEngine\Lib\Window\glfw\glfw3.h" />
+    <ClInclude Include="EmpanadaEngine\Lib\Window\glfw\glfw3native.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{61CBEAF5-7B35-42F3-A979-609CB34CC0C9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_MBCS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)EmpanadaEngine\Lib\Window\openal\AL;$(ProjectDir)EmpanadaEngine\Lib\Window\glfw;$(ProjectDir)EmpanadaEngine\Lib\Window\glew;$(ProjectDir)EmpanadaEngine\Lib\Common\stb;$(ProjectDir)EmpanadaEngine\Lib\Window\freetype\include;$(ProjectDir)EmpanadaEngine\Lib\Common\glm\glm</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)EmpanadaEngine\Lib\Window\openal;$(ProjectDir)EmpanadaEngine\Lib\Window\glfw;$(ProjectDir)EmpanadaEngine\Lib\Window\freetype\win32;$(ProjectDir)EmpanadaEngine\Lib\Window\glew</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.win32.lib;glew32.lib;opengl32.lib;OpenAL32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>glfw3.win64.lib;opengl32.lib;OpenAL32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)EmpanadaEngine\Lib\Window\openal;$(ProjectDir)EmpanadaEngine\Lib\Window\glfw;$(ProjectDir)EmpanadaEngine\Lib\Common\stb;$(ProjectDir)EmpanadaEngine\Lib\Window\freetype\win64</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)EmpanadaEngine\Lib\Window\openal\AL;$(ProjectDir)EmpanadaEngine\Lib\Window\glfw;$(ProjectDir)EmpanadaEngine\Lib\Window\glew;$(ProjectDir)EmpanadaEngine\Lib\Common\stb;$(ProjectDir)EmpanadaEngine\Lib\Window\freetype\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_MBCS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

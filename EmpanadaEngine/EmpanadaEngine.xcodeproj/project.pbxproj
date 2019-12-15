@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134EF09A23A06EBD00959EE5 /* EMPCollisionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF09823A06EBD00959EE5 /* EMPCollisionComponent.cpp */; };
+		134EF0A223A0973E00959EE5 /* EMPAudioOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0A023A0973E00959EE5 /* EMPAudioOpenAL.cpp */; };
+		134EF0A423A0974B00959EE5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134EF0A323A0974B00959EE5 /* OpenAL.framework */; };
+		134EF0AD23A0B37500959EE5 /* EMPAudioBufferOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0AB23A0B37500959EE5 /* EMPAudioBufferOpenAL.cpp */; };
+		134EF0AF23A0B8B500959EE5 /* IEMPAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0AE23A0B8B500959EE5 /* IEMPAudio.cpp */; };
+		134EF0B523A12E9300959EE5 /* EMPAudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0B323A12E9300959EE5 /* EMPAudioManager.cpp */; };
+		134EF0B923A1748100959EE5 /* EMPText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0B723A1748100959EE5 /* EMPText.cpp */; };
+		134EF0BC23A18D2500959EE5 /* EMPFontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0BA23A18D2500959EE5 /* EMPFontManager.cpp */; };
+		134EF0C223A29BDD00959EE5 /* EMPButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134EF0C023A29BDD00959EE5 /* EMPButton.cpp */; };
+		13551A8A238341140001E566 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13551A89238341140001E566 /* main.cpp */; };
+		139FD9D7238562BF00E8FEB1 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FD9D5238562BF00E8FEB1 /* libGLEW.2.1.0.dylib */; };
+		139FD9D8238562BF00E8FEB1 /* libGLEW.2.1.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 139FD9D5238562BF00E8FEB1 /* libGLEW.2.1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		139FD9D9238562BF00E8FEB1 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FD9D6238562BF00E8FEB1 /* libglfw.3.2.dylib */; };
+		139FD9DA238562BF00E8FEB1 /* libglfw.3.2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 139FD9D6238562BF00E8FEB1 /* libglfw.3.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		139FD9DD238562CC00E8FEB1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FD9DC238562CC00E8FEB1 /* OpenGL.framework */; };
+		139FD9E023859CDD00E8FEB1 /* EMPWindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FD9DE23859CDD00E8FEB1 /* EMPWindowManager.cpp */; };
+		139FD9E42385A93600E8FEB1 /* EMPWindowGLFW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FD9E22385A93600E8FEB1 /* EMPWindowGLFW.cpp */; };
+		139FD9F0238867D100E8FEB1 /* EMPInputGLFW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FD9EE238867D100E8FEB1 /* EMPInputGLFW.cpp */; };
+		139FD9F42388792400E8FEB1 /* EMPInputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FD9F22388792400E8FEB1 /* EMPInputManager.cpp */; };
+		139FD9FD238C256B00E8FEB1 /* EMPEventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FD9FB238C256B00E8FEB1 /* EMPEventManager.cpp */; };
+		139FDA06238C668F00E8FEB1 /* EMPGameApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA04238C668F00E8FEB1 /* EMPGameApp.cpp */; };
+		139FDA0A238CD27A00E8FEB1 /* EMPTimerGLFW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA08238CD27A00E8FEB1 /* EMPTimerGLFW.cpp */; };
+		139FDA0F238DB72B00E8FEB1 /* EMPSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA0D238DB72B00E8FEB1 /* EMPSceneManager.cpp */; };
+		139FDA1223901A2800E8FEB1 /* IEMPShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA1023901A2800E8FEB1 /* IEMPShader.cpp */; };
+		139FDA1523903AB000E8FEB1 /* EMPShaderOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA1323903AB000E8FEB1 /* EMPShaderOpenGL.cpp */; };
+		139FDA192390883A00E8FEB1 /* EMPRenderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA172390883A00E8FEB1 /* EMPRenderManager.cpp */; };
+		139FDA1E23909CD400E8FEB1 /* EMPBufferOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA1C23909CD400E8FEB1 /* EMPBufferOpenGL.cpp */; };
+		139FDA212390A09F00E8FEB1 /* IEMPBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA1F2390A09F00E8FEB1 /* IEMPBuffer.cpp */; };
+		139FDA262391A75300E8FEB1 /* IEMPTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA242391A75300E8FEB1 /* IEMPTexture.cpp */; };
+		139FDA292391A7D600E8FEB1 /* EMPTextureOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA272391A7D600E8FEB1 /* EMPTextureOpenGL.cpp */; };
+		139FDA2C2392F44000E8FEB1 /* IEMPEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA2A2392F44000E8FEB1 /* IEMPEntity.cpp */; };
+		139FDA302393037700E8FEB1 /* EMPModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA2E2393037700E8FEB1 /* EMPModel.cpp */; };
+		139FDA33239304A700E8FEB1 /* EMPMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA31239304A700E8FEB1 /* EMPMaterial.cpp */; };
+		139FDA362394445B00E8FEB1 /* EMPMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA342394445B00E8FEB1 /* EMPMesh.cpp */; };
+		139FDA3923945C2600E8FEB1 /* EMPCamara.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA3723945C2600E8FEB1 /* EMPCamara.cpp */; };
+		139FDA3C23948FA600E8FEB1 /* IEMPScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA3A23948FA600E8FEB1 /* IEMPScene.cpp */; };
+		139FDA3F239581AC00E8FEB1 /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 139FDA3D2395818500E8FEB1 /* Resources */; };
+		139FDA432398359600E8FEB1 /* IEMPComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA412398359600E8FEB1 /* IEMPComponent.cpp */; };
+		139FDA4623984F1400E8FEB1 /* EMPTransformComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA4423984F1400E8FEB1 /* EMPTransformComponent.cpp */; };
+		139FDA4923985F2D00E8FEB1 /* EMPGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA4723985F2D00E8FEB1 /* EMPGameObject.cpp */; };
+		139FDA4C2398B98A00E8FEB1 /* EMPSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA4A2398B98A00E8FEB1 /* EMPSprite.cpp */; };
+		139FDA4F239B32FE00E8FEB1 /* EMPAnimationComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139FDA4D239B32FE00E8FEB1 /* EMPAnimationComponent.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13551A84238341140001E566 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		139FD9DB238562BF00E8FEB1 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				139FD9D8238562BF00E8FEB1 /* libGLEW.2.1.0.dylib in Embed Libraries */,
+				139FD9DA238562BF00E8FEB1 /* libglfw.3.2.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139FDA3E239581A500E8FEB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				139FDA3F239581AC00E8FEB1 /* Resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134EF097239C377400959EE5 /* EMPCollision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPCollision.h; sourceTree = "<group>"; };
+		134EF09823A06EBD00959EE5 /* EMPCollisionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPCollisionComponent.cpp; sourceTree = "<group>"; };
+		134EF09923A06EBD00959EE5 /* EMPCollisionComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPCollisionComponent.h; sourceTree = "<group>"; };
+		134EF09D23A0887500959EE5 /* IEMPAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPAudio.h; sourceTree = "<group>"; };
+		134EF0A023A0973E00959EE5 /* EMPAudioOpenAL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPAudioOpenAL.cpp; sourceTree = "<group>"; };
+		134EF0A123A0973E00959EE5 /* EMPAudioOpenAL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPAudioOpenAL.h; sourceTree = "<group>"; };
+		134EF0A323A0974B00959EE5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		134EF0A923A0B1DC00959EE5 /* IEMPAudioBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPAudioBuffer.h; sourceTree = "<group>"; };
+		134EF0AB23A0B37500959EE5 /* EMPAudioBufferOpenAL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPAudioBufferOpenAL.cpp; sourceTree = "<group>"; };
+		134EF0AC23A0B37500959EE5 /* EMPAudioBufferOpenAL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPAudioBufferOpenAL.h; sourceTree = "<group>"; };
+		134EF0AE23A0B8B500959EE5 /* IEMPAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IEMPAudio.cpp; path = EmpanadaEngine/Core/Audio/IEMPAudio.cpp; sourceTree = SOURCE_ROOT; };
+		134EF0B323A12E9300959EE5 /* EMPAudioManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPAudioManager.cpp; sourceTree = "<group>"; };
+		134EF0B423A12E9300959EE5 /* EMPAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPAudioManager.h; sourceTree = "<group>"; };
+		134EF0B723A1748100959EE5 /* EMPText.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPText.cpp; sourceTree = "<group>"; };
+		134EF0B823A1748100959EE5 /* EMPText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPText.h; sourceTree = "<group>"; };
+		134EF0BA23A18D2500959EE5 /* EMPFontManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPFontManager.cpp; sourceTree = "<group>"; };
+		134EF0BB23A18D2500959EE5 /* EMPFontManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPFontManager.h; sourceTree = "<group>"; };
+		134EF0BE23A18FC200959EE5 /* EMPCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPCharacter.h; sourceTree = "<group>"; };
+		134EF0C023A29BDD00959EE5 /* EMPButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPButton.cpp; sourceTree = "<group>"; };
+		134EF0C123A29BDD00959EE5 /* EMPButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPButton.h; sourceTree = "<group>"; };
+		13551A86238341140001E566 /* EmpanadaEngine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmpanadaEngine; sourceTree = BUILT_PRODUCTS_DIR; };
+		13551A89238341140001E566 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		139FD9D12384E7AB00E8FEB1 /* IEMPWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPWindow.h; sourceTree = "<group>"; usesTabs = 0; };
+		139FD9D32384E8C600E8FEB1 /* EMPColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPColor.h; sourceTree = "<group>"; };
+		139FD9D5238562BF00E8FEB1 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = EmpanadaEngine/Lib/Mac/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		139FD9D6238562BF00E8FEB1 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = EmpanadaEngine/Lib/Mac/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		139FD9DC238562CC00E8FEB1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		139FD9DE23859CDD00E8FEB1 /* EMPWindowManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPWindowManager.cpp; sourceTree = "<group>"; };
+		139FD9E12385A72E00E8FEB1 /* EMPWindowFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPWindowFactory.h; sourceTree = "<group>"; };
+		139FD9E22385A93600E8FEB1 /* EMPWindowGLFW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPWindowGLFW.cpp; sourceTree = "<group>"; };
+		139FD9E32385A93600E8FEB1 /* EMPWindowGLFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPWindowGLFW.h; sourceTree = "<group>"; };
+		139FD9E92385FE0500E8FEB1 /* EMPGameConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPGameConfiguration.h; sourceTree = "<group>"; };
+		139FD9EA2385FE3D00E8FEB1 /* EMPWindowConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPWindowConfiguration.h; sourceTree = "<group>"; };
+		139FD9EB2386100000E8FEB1 /* EMPWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPWindowManager.h; sourceTree = "<group>"; };
+		139FD9ED23885F4C00E8FEB1 /* IEMPInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPInput.h; sourceTree = "<group>"; };
+		139FD9EE238867D100E8FEB1 /* EMPInputGLFW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPInputGLFW.cpp; sourceTree = "<group>"; };
+		139FD9EF238867D100E8FEB1 /* EMPInputGLFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPInputGLFW.h; sourceTree = "<group>"; };
+		139FD9F1238874AF00E8FEB1 /* EmpanadaEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmpanadaEngine.h; sourceTree = "<group>"; };
+		139FD9F22388792400E8FEB1 /* EMPInputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPInputManager.cpp; sourceTree = "<group>"; };
+		139FD9F32388792400E8FEB1 /* EMPInputManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPInputManager.h; sourceTree = "<group>"; };
+		139FD9F523887D8600E8FEB1 /* EMPInputFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPInputFactory.h; sourceTree = "<group>"; };
+		139FD9F72388891A00E8FEB1 /* EMPEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPEvent.h; sourceTree = "<group>"; };
+		139FD9F82389F23300E8FEB1 /* EMPEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPEventDelegate.h; sourceTree = "<group>"; };
+		139FD9FB238C256B00E8FEB1 /* EMPEventManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPEventManager.cpp; sourceTree = "<group>"; };
+		139FD9FC238C256B00E8FEB1 /* EMPEventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPEventManager.h; sourceTree = "<group>"; };
+		139FD9FE238C266000E8FEB1 /* EMPSinglenton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPSinglenton.h; sourceTree = "<group>"; };
+		139FDA00238C51AB00E8FEB1 /* EMPWindowEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPWindowEvent.h; sourceTree = "<group>"; };
+		139FDA01238C51FB00E8FEB1 /* EMPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPMacros.h; sourceTree = "<group>"; };
+		139FDA02238C5CA100E8FEB1 /* EMPMouseEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPMouseEvent.h; sourceTree = "<group>"; };
+		139FDA03238C5CB400E8FEB1 /* EMPKeyEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPKeyEvent.h; sourceTree = "<group>"; };
+		139FDA04238C668F00E8FEB1 /* EMPGameApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPGameApp.cpp; sourceTree = "<group>"; };
+		139FDA05238C668F00E8FEB1 /* EMPGameApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPGameApp.h; sourceTree = "<group>"; };
+		139FDA07238CD13700E8FEB1 /* IEMPTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPTimer.h; sourceTree = "<group>"; };
+		139FDA08238CD27A00E8FEB1 /* EMPTimerGLFW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPTimerGLFW.cpp; sourceTree = "<group>"; };
+		139FDA09238CD27A00E8FEB1 /* EMPTimerGLFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPTimerGLFW.h; sourceTree = "<group>"; };
+		139FDA0B238D5C3D00E8FEB1 /* EMPTimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPTimerManager.h; sourceTree = "<group>"; };
+		139FDA0C238DB1CD00E8FEB1 /* IEMPScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPScene.h; sourceTree = "<group>"; };
+		139FDA0D238DB72B00E8FEB1 /* EMPSceneManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPSceneManager.cpp; sourceTree = "<group>"; };
+		139FDA0E238DB72B00E8FEB1 /* EMPSceneManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPSceneManager.h; sourceTree = "<group>"; };
+		139FDA1023901A2800E8FEB1 /* IEMPShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEMPShader.cpp; sourceTree = "<group>"; };
+		139FDA1123901A2800E8FEB1 /* IEMPShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPShader.h; sourceTree = "<group>"; };
+		139FDA1323903AB000E8FEB1 /* EMPShaderOpenGL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPShaderOpenGL.cpp; sourceTree = "<group>"; };
+		139FDA1423903AB000E8FEB1 /* EMPShaderOpenGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPShaderOpenGL.h; sourceTree = "<group>"; };
+		139FDA162390488500E8FEB1 /* EMPVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPVertex.h; sourceTree = "<group>"; };
+		139FDA172390883A00E8FEB1 /* EMPRenderManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPRenderManager.cpp; sourceTree = "<group>"; };
+		139FDA182390883A00E8FEB1 /* EMPRenderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPRenderManager.h; sourceTree = "<group>"; };
+		139FDA1B23909AD600E8FEB1 /* IEMPBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPBuffer.h; sourceTree = "<group>"; };
+		139FDA1C23909CD400E8FEB1 /* EMPBufferOpenGL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPBufferOpenGL.cpp; sourceTree = "<group>"; };
+		139FDA1D23909CD400E8FEB1 /* EMPBufferOpenGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPBufferOpenGL.h; sourceTree = "<group>"; };
+		139FDA1F2390A09F00E8FEB1 /* IEMPBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEMPBuffer.cpp; sourceTree = "<group>"; };
+		139FDA222391A00400E8FEB1 /* IEMPTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPTexture.h; sourceTree = "<group>"; };
+		139FDA242391A75300E8FEB1 /* IEMPTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEMPTexture.cpp; sourceTree = "<group>"; };
+		139FDA272391A7D600E8FEB1 /* EMPTextureOpenGL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPTextureOpenGL.cpp; sourceTree = "<group>"; };
+		139FDA282391A7D600E8FEB1 /* EMPTextureOpenGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPTextureOpenGL.h; sourceTree = "<group>"; };
+		139FDA2A2392F44000E8FEB1 /* IEMPEntity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEMPEntity.cpp; sourceTree = "<group>"; };
+		139FDA2B2392F44000E8FEB1 /* IEMPEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPEntity.h; sourceTree = "<group>"; };
+		139FDA2E2393037700E8FEB1 /* EMPModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPModel.cpp; sourceTree = "<group>"; };
+		139FDA2F2393037700E8FEB1 /* EMPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPModel.h; sourceTree = "<group>"; };
+		139FDA31239304A700E8FEB1 /* EMPMaterial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPMaterial.cpp; sourceTree = "<group>"; };
+		139FDA32239304A700E8FEB1 /* EMPMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPMaterial.h; sourceTree = "<group>"; };
+		139FDA342394445B00E8FEB1 /* EMPMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPMesh.cpp; sourceTree = "<group>"; };
+		139FDA352394445B00E8FEB1 /* EMPMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPMesh.h; sourceTree = "<group>"; };
+		139FDA3723945C2600E8FEB1 /* EMPCamara.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPCamara.cpp; sourceTree = "<group>"; };
+		139FDA3823945C2600E8FEB1 /* EMPCamara.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPCamara.h; sourceTree = "<group>"; };
+		139FDA3A23948FA600E8FEB1 /* IEMPScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEMPScene.cpp; sourceTree = "<group>"; };
+		139FDA3D2395818500E8FEB1 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		139FDA412398359600E8FEB1 /* IEMPComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IEMPComponent.cpp; sourceTree = "<group>"; };
+		139FDA422398359600E8FEB1 /* IEMPComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEMPComponent.h; sourceTree = "<group>"; };
+		139FDA4423984F1400E8FEB1 /* EMPTransformComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPTransformComponent.cpp; sourceTree = "<group>"; };
+		139FDA4523984F1400E8FEB1 /* EMPTransformComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPTransformComponent.h; sourceTree = "<group>"; };
+		139FDA4723985F2D00E8FEB1 /* EMPGameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPGameObject.cpp; sourceTree = "<group>"; };
+		139FDA4823985F2D00E8FEB1 /* EMPGameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPGameObject.h; sourceTree = "<group>"; };
+		139FDA4A2398B98A00E8FEB1 /* EMPSprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPSprite.cpp; sourceTree = "<group>"; };
+		139FDA4B2398B98A00E8FEB1 /* EMPSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPSprite.h; sourceTree = "<group>"; };
+		139FDA4D239B32FE00E8FEB1 /* EMPAnimationComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EMPAnimationComponent.cpp; sourceTree = "<group>"; };
+		139FDA4E239B32FE00E8FEB1 /* EMPAnimationComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPAnimationComponent.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13551A83238341140001E566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139FD9D7238562BF00E8FEB1 /* libGLEW.2.1.0.dylib in Frameworks */,
+				139FD9D9238562BF00E8FEB1 /* libglfw.3.2.dylib in Frameworks */,
+				139FD9DD238562CC00E8FEB1 /* OpenGL.framework in Frameworks */,
+				134EF0A423A0974B00959EE5 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134EF09B23A0885A00959EE5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				134EF09F23A0972900959EE5 /* OpenAL */,
+				134EF0AE23A0B8B500959EE5 /* IEMPAudio.cpp */,
+				134EF09D23A0887500959EE5 /* IEMPAudio.h */,
+				134EF0A923A0B1DC00959EE5 /* IEMPAudioBuffer.h */,
+				134EF0B323A12E9300959EE5 /* EMPAudioManager.cpp */,
+				134EF0B423A12E9300959EE5 /* EMPAudioManager.h */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		134EF09F23A0972900959EE5 /* OpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				134EF0A023A0973E00959EE5 /* EMPAudioOpenAL.cpp */,
+				134EF0A123A0973E00959EE5 /* EMPAudioOpenAL.h */,
+				134EF0AB23A0B37500959EE5 /* EMPAudioBufferOpenAL.cpp */,
+				134EF0AC23A0B37500959EE5 /* EMPAudioBufferOpenAL.h */,
+			);
+			path = OpenAL;
+			sourceTree = "<group>";
+		};
+		134EF0B623A1742C00959EE5 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				134EF0B723A1748100959EE5 /* EMPText.cpp */,
+				134EF0B823A1748100959EE5 /* EMPText.h */,
+				134EF0BA23A18D2500959EE5 /* EMPFontManager.cpp */,
+				134EF0BB23A18D2500959EE5 /* EMPFontManager.h */,
+				134EF0BE23A18FC200959EE5 /* EMPCharacter.h */,
+				134EF0C023A29BDD00959EE5 /* EMPButton.cpp */,
+				134EF0C123A29BDD00959EE5 /* EMPButton.h */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		13551A7D238341140001E566 = {
+			isa = PBXGroup;
+			children = (
+				13551A88238341140001E566 /* EmpanadaEngine */,
+				13551A87238341140001E566 /* Products */,
+				139FD9D4238562BF00E8FEB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13551A87238341140001E566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13551A86238341140001E566 /* EmpanadaEngine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13551A88238341140001E566 /* EmpanadaEngine */ = {
+			isa = PBXGroup;
+			children = (
+				13551A90238341340001E566 /* Core */,
+				139FDA3D2395818500E8FEB1 /* Resources */,
+				13551A89238341140001E566 /* main.cpp */,
+			);
+			path = EmpanadaEngine;
+			sourceTree = "<group>";
+		};
+		13551A90238341340001E566 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				134EF0B623A1742C00959EE5 /* GUI */,
+				134EF09B23A0885A00959EE5 /* Audio */,
+				139FD9F62388890700E8FEB1 /* ECS */,
+				139FD9EC23885F1C00E8FEB1 /* Inputs */,
+				139FD9E62385C69400E8FEB1 /* Render */,
+				139FD9E52385C67B00E8FEB1 /* Game */,
+				13551A912383417A0001E566 /* Events */,
+				13551A92238341810001E566 /* Scenes */,
+				13551A932383418A0001E566 /* Shaders */,
+				13551A94238341930001E566 /* Utils */,
+				13551A952383419A0001E566 /* Windows */,
+				139FD9F1238874AF00E8FEB1 /* EmpanadaEngine.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		13551A912383417A0001E566 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				139FD9F72388891A00E8FEB1 /* EMPEvent.h */,
+				139FD9F82389F23300E8FEB1 /* EMPEventDelegate.h */,
+				139FD9FB238C256B00E8FEB1 /* EMPEventManager.cpp */,
+				139FD9FC238C256B00E8FEB1 /* EMPEventManager.h */,
+				139FDA00238C51AB00E8FEB1 /* EMPWindowEvent.h */,
+				139FDA02238C5CA100E8FEB1 /* EMPMouseEvent.h */,
+				139FDA03238C5CB400E8FEB1 /* EMPKeyEvent.h */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		13551A92238341810001E566 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA3A23948FA600E8FEB1 /* IEMPScene.cpp */,
+				139FDA0C238DB1CD00E8FEB1 /* IEMPScene.h */,
+				139FDA0D238DB72B00E8FEB1 /* EMPSceneManager.cpp */,
+				139FDA0E238DB72B00E8FEB1 /* EMPSceneManager.h */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		13551A932383418A0001E566 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA1023901A2800E8FEB1 /* IEMPShader.cpp */,
+				139FDA1123901A2800E8FEB1 /* IEMPShader.h */,
+				139FDA1323903AB000E8FEB1 /* EMPShaderOpenGL.cpp */,
+				139FDA1423903AB000E8FEB1 /* EMPShaderOpenGL.h */,
+				139FDA162390488500E8FEB1 /* EMPVertex.h */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		13551A94238341930001E566 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				139FD9D32384E8C600E8FEB1 /* EMPColor.h */,
+				134EF097239C377400959EE5 /* EMPCollision.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		13551A952383419A0001E566 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				139FD9D12384E7AB00E8FEB1 /* IEMPWindow.h */,
+				139FD9DE23859CDD00E8FEB1 /* EMPWindowManager.cpp */,
+				139FD9EB2386100000E8FEB1 /* EMPWindowManager.h */,
+				139FD9E12385A72E00E8FEB1 /* EMPWindowFactory.h */,
+				139FD9E22385A93600E8FEB1 /* EMPWindowGLFW.cpp */,
+				139FD9E32385A93600E8FEB1 /* EMPWindowGLFW.h */,
+				139FD9EA2385FE3D00E8FEB1 /* EMPWindowConfiguration.h */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		139FD9D4238562BF00E8FEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134EF0A323A0974B00959EE5 /* OpenAL.framework */,
+				139FD9DC238562CC00E8FEB1 /* OpenGL.framework */,
+				139FD9D5238562BF00E8FEB1 /* libGLEW.2.1.0.dylib */,
+				139FD9D6238562BF00E8FEB1 /* libglfw.3.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		139FD9E52385C67B00E8FEB1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				139FD9E92385FE0500E8FEB1 /* EMPGameConfiguration.h */,
+				139FDA08238CD27A00E8FEB1 /* EMPTimerGLFW.cpp */,
+				139FDA09238CD27A00E8FEB1 /* EMPTimerGLFW.h */,
+				139FD9FE238C266000E8FEB1 /* EMPSinglenton.h */,
+				139FDA01238C51FB00E8FEB1 /* EMPMacros.h */,
+				139FDA04238C668F00E8FEB1 /* EMPGameApp.cpp */,
+				139FDA05238C668F00E8FEB1 /* EMPGameApp.h */,
+				139FDA07238CD13700E8FEB1 /* IEMPTimer.h */,
+				139FDA0B238D5C3D00E8FEB1 /* EMPTimerManager.h */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		139FD9E62385C69400E8FEB1 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA1A2390883E00E8FEB1 /* OpengGL */,
+				139FDA172390883A00E8FEB1 /* EMPRenderManager.cpp */,
+				139FDA182390883A00E8FEB1 /* EMPRenderManager.h */,
+				139FDA1F2390A09F00E8FEB1 /* IEMPBuffer.cpp */,
+				139FDA1B23909AD600E8FEB1 /* IEMPBuffer.h */,
+				139FDA242391A75300E8FEB1 /* IEMPTexture.cpp */,
+				139FDA222391A00400E8FEB1 /* IEMPTexture.h */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		139FD9EC23885F1C00E8FEB1 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				139FD9ED23885F4C00E8FEB1 /* IEMPInput.h */,
+				139FD9EE238867D100E8FEB1 /* EMPInputGLFW.cpp */,
+				139FD9EF238867D100E8FEB1 /* EMPInputGLFW.h */,
+				139FD9F22388792400E8FEB1 /* EMPInputManager.cpp */,
+				139FD9F32388792400E8FEB1 /* EMPInputManager.h */,
+				139FD9F523887D8600E8FEB1 /* EMPInputFactory.h */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		139FD9F62388890700E8FEB1 /* ECS */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA402398253B00E8FEB1 /* Components */,
+				139FDA2D2393024D00E8FEB1 /* Entities */,
+			);
+			path = ECS;
+			sourceTree = "<group>";
+		};
+		139FDA1A2390883E00E8FEB1 /* OpengGL */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA1C23909CD400E8FEB1 /* EMPBufferOpenGL.cpp */,
+				139FDA1D23909CD400E8FEB1 /* EMPBufferOpenGL.h */,
+				139FDA272391A7D600E8FEB1 /* EMPTextureOpenGL.cpp */,
+				139FDA282391A7D600E8FEB1 /* EMPTextureOpenGL.h */,
+			);
+			path = OpengGL;
+			sourceTree = "<group>";
+		};
+		139FDA2D2393024D00E8FEB1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA2A2392F44000E8FEB1 /* IEMPEntity.cpp */,
+				139FDA2B2392F44000E8FEB1 /* IEMPEntity.h */,
+				139FDA2E2393037700E8FEB1 /* EMPModel.cpp */,
+				139FDA2F2393037700E8FEB1 /* EMPModel.h */,
+				139FDA31239304A700E8FEB1 /* EMPMaterial.cpp */,
+				139FDA32239304A700E8FEB1 /* EMPMaterial.h */,
+				139FDA342394445B00E8FEB1 /* EMPMesh.cpp */,
+				139FDA352394445B00E8FEB1 /* EMPMesh.h */,
+				139FDA3723945C2600E8FEB1 /* EMPCamara.cpp */,
+				139FDA3823945C2600E8FEB1 /* EMPCamara.h */,
+				139FDA4723985F2D00E8FEB1 /* EMPGameObject.cpp */,
+				139FDA4823985F2D00E8FEB1 /* EMPGameObject.h */,
+				139FDA4A2398B98A00E8FEB1 /* EMPSprite.cpp */,
+				139FDA4B2398B98A00E8FEB1 /* EMPSprite.h */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		139FDA402398253B00E8FEB1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				139FDA412398359600E8FEB1 /* IEMPComponent.cpp */,
+				139FDA422398359600E8FEB1 /* IEMPComponent.h */,
+				139FDA4423984F1400E8FEB1 /* EMPTransformComponent.cpp */,
+				139FDA4523984F1400E8FEB1 /* EMPTransformComponent.h */,
+				139FDA4D239B32FE00E8FEB1 /* EMPAnimationComponent.cpp */,
+				139FDA4E239B32FE00E8FEB1 /* EMPAnimationComponent.h */,
+				134EF09823A06EBD00959EE5 /* EMPCollisionComponent.cpp */,
+				134EF09923A06EBD00959EE5 /* EMPCollisionComponent.h */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13551A85238341140001E566 /* EmpanadaEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13551A8D238341140001E566 /* Build configuration list for PBXNativeTarget "EmpanadaEngine" */;
+			buildPhases = (
+				13551A82238341140001E566 /* Sources */,
+				13551A83238341140001E566 /* Frameworks */,
+				13551A84238341140001E566 /* CopyFiles */,
+				139FD9DB238562BF00E8FEB1 /* Embed Libraries */,
+				139FDA3E239581A500E8FEB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpanadaEngine;
+			productName = EmpanadaEngine;
+			productReference = 13551A86238341140001E566 /* EmpanadaEngine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13551A7E238341140001E566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EMP;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ingrid Guerrero";
+				TargetAttributes = {
+					13551A85238341140001E566 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 13551A81238341140001E566 /* Build configuration list for PBXProject "EmpanadaEngine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13551A7D238341140001E566;
+			productRefGroup = 13551A87238341140001E566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13551A85238341140001E566 /* EmpanadaEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13551A82238341140001E566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139FD9F42388792400E8FEB1 /* EMPInputManager.cpp in Sources */,
+				134EF0BC23A18D2500959EE5 /* EMPFontManager.cpp in Sources */,
+				139FD9E023859CDD00E8FEB1 /* EMPWindowManager.cpp in Sources */,
+				134EF0AF23A0B8B500959EE5 /* IEMPAudio.cpp in Sources */,
+				134EF0C223A29BDD00959EE5 /* EMPButton.cpp in Sources */,
+				134EF0AD23A0B37500959EE5 /* EMPAudioBufferOpenAL.cpp in Sources */,
+				139FDA192390883A00E8FEB1 /* EMPRenderManager.cpp in Sources */,
+				139FDA3C23948FA600E8FEB1 /* IEMPScene.cpp in Sources */,
+				139FDA212390A09F00E8FEB1 /* IEMPBuffer.cpp in Sources */,
+				139FDA3923945C2600E8FEB1 /* EMPCamara.cpp in Sources */,
+				139FDA1E23909CD400E8FEB1 /* EMPBufferOpenGL.cpp in Sources */,
+				139FDA4C2398B98A00E8FEB1 /* EMPSprite.cpp in Sources */,
+				139FDA33239304A700E8FEB1 /* EMPMaterial.cpp in Sources */,
+				139FDA432398359600E8FEB1 /* IEMPComponent.cpp in Sources */,
+				139FDA06238C668F00E8FEB1 /* EMPGameApp.cpp in Sources */,
+				134EF09A23A06EBD00959EE5 /* EMPCollisionComponent.cpp in Sources */,
+				139FDA4F239B32FE00E8FEB1 /* EMPAnimationComponent.cpp in Sources */,
+				139FDA302393037700E8FEB1 /* EMPModel.cpp in Sources */,
+				139FDA4623984F1400E8FEB1 /* EMPTransformComponent.cpp in Sources */,
+				139FDA1223901A2800E8FEB1 /* IEMPShader.cpp in Sources */,
+				139FDA4923985F2D00E8FEB1 /* EMPGameObject.cpp in Sources */,
+				134EF0B523A12E9300959EE5 /* EMPAudioManager.cpp in Sources */,
+				13551A8A238341140001E566 /* main.cpp in Sources */,
+				139FDA0A238CD27A00E8FEB1 /* EMPTimerGLFW.cpp in Sources */,
+				139FDA2C2392F44000E8FEB1 /* IEMPEntity.cpp in Sources */,
+				139FD9E42385A93600E8FEB1 /* EMPWindowGLFW.cpp in Sources */,
+				139FD9F0238867D100E8FEB1 /* EMPInputGLFW.cpp in Sources */,
+				139FDA262391A75300E8FEB1 /* IEMPTexture.cpp in Sources */,
+				139FDA362394445B00E8FEB1 /* EMPMesh.cpp in Sources */,
+				139FDA0F238DB72B00E8FEB1 /* EMPSceneManager.cpp in Sources */,
+				134EF0A223A0973E00959EE5 /* EMPAudioOpenAL.cpp in Sources */,
+				139FDA292391A7D600E8FEB1 /* EMPTextureOpenGL.cpp in Sources */,
+				139FDA1523903AB000E8FEB1 /* EMPShaderOpenGL.cpp in Sources */,
+				139FD9FD238C256B00E8FEB1 /* EMPEventManager.cpp in Sources */,
+				134EF0B923A1748100959EE5 /* EMPText.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13551A8B238341140001E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		13551A8C238341140001E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		13551A8E238341140001E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(PROJECT_DIR)/EmpanadaEngine/Lib/Common/glm",
+					"$(PROJECT_DIR)/EmpanadaEngine/Lib/Common/stb",
+					/usr/local/opt/freetype/include/freetype2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmpanadaEngine/Lib/Mac",
+					/usr/local/opt/freetype/lib,
+				);
+				OTHER_LDFLAGS = "-lfreetype";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13551A8F238341140001E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(PROJECT_DIR)/EmpanadaEngine/Lib/Common/glm",
+					"$(PROJECT_DIR)/EmpanadaEngine/Lib/Common/stb",
+					/usr/local/opt/freetype/include/freetype2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmpanadaEngine/Lib/Mac",
+					/usr/local/opt/freetype/lib,
+				);
+				OTHER_LDFLAGS = "-lfreetype";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13551A81238341140001E566 /* Build configuration list for PBXProject "EmpanadaEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13551A8B238341140001E566 /* Debug */,
+				13551A8C238341140001E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13551A8D238341140001E566 /* Build configuration list for PBXNativeTarget "EmpanadaEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13551A8E238341140001E566 /* Debug */,
+				13551A8F238341140001E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13551A7E238341140001E566 /* Project object */;
+}

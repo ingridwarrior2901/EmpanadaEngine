@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{603079f0-4f8a-4f8d-b703-69ee29a54b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Audio">
+      <UniqueIdentifier>{dc9647ba-c3ca-4b69-b552-5889cc76b267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Audio\OpenAL">
+      <UniqueIdentifier>{e1ccd372-71bf-4676-8f7a-f0a455e69a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\ECS">
+      <UniqueIdentifier>{a5c515f8-7829-4363-b36c-0b91516b64bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\GUI">
+      <UniqueIdentifier>{51cb3dec-ca52-4353-ab4d-260d4386b08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Inputs">
+      <UniqueIdentifier>{e60f4884-4080-4427-b108-375d709b8174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Scenes">
+      <UniqueIdentifier>{7926cade-b3f9-4b5d-92eb-2b1c0e30a45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Render">
+      <UniqueIdentifier>{bc8a94f2-3e1c-49e7-8c85-53b2d4a23955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Shaders">
+      <UniqueIdentifier>{5bb592b9-4da3-4e64-99eb-7bfc21a16e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utils">
+      <UniqueIdentifier>{94de6bec-6345-4190-88ef-780eea58335d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Windows">
+      <UniqueIdentifier>{c77c83ea-36f5-4b98-b945-c8bacd79d64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\ECS\Components">
+      <UniqueIdentifier>{1611944c-ff6f-4f54-af63-49ba7cedf29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\ECS\Entities">
+      <UniqueIdentifier>{40c6b50c-586e-43b5-a1cb-9030423677b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Events">
+      <UniqueIdentifier>{f96a195d-1d9e-4a8e-8311-5e771a2a13a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Game">
+      <UniqueIdentifier>{08401b2b-0fd4-4064-b87f-e4a3dd0c8040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Render\OpengGL">
+      <UniqueIdentifier>{45f89028-09e2-4a8f-88d7-06c428d34e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{ac8a5144-6c16-4611-99ec-e5c6a6e02f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\glfw">
+      <UniqueIdentifier>{07864e50-021d-42a8-b0af-8f4dcc58f09a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmpanadaEngine\Core\Audio\EMPAudioManager.cpp">
+      <Filter>Source Files\Core\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Audio\IEMPAudio.cpp">
+      <Filter>Source Files\Core\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioBufferOpenAL.cpp">
+      <Filter>Source Files\Core\Audio\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioOpenAL.cpp">
+      <Filter>Source Files\Core\Audio\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\EMPTransformComponent.cpp">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\IEMPComponent.cpp">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\EMPAnimationComponent.cpp">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Components\EMPCollisionComponent.cpp">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPModel.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPSprite.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\IEMPEntity.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPCamara.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPGameObject.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPMaterial.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\ECS\Entities\EMPMesh.cpp">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Events\EMPEventManager.cpp">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Game\EMPGameApp.cpp">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Game\EMPTimerGLFW.cpp">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\GUI\EMPText.cpp">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\GUI\EMPButton.cpp">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\GUI\EMPFontManager.cpp">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Inputs\EMPInputGLFW.cpp">
+      <Filter>Source Files\Core\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Inputs\EMPInputManager.cpp">
+      <Filter>Source Files\Core\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Render\IEMPTexture.cpp">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Render\EMPRenderManager.cpp">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Render\IEMPBuffer.cpp">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Render\OpengGL\EMPTextureOpenGL.cpp">
+      <Filter>Source Files\Core\Render\OpengGL</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Render\OpengGL\EMPBufferOpenGL.cpp">
+      <Filter>Source Files\Core\Render\OpengGL</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Scenes\IEMPScene.cpp">
+      <Filter>Source Files\Core\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Scenes\EMPSceneManager.cpp">
+      <Filter>Source Files\Core\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Shaders\IEMPShader.cpp">
+      <Filter>Source Files\Core\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Shaders\EMPShaderOpenGL.cpp">
+      <Filter>Source Files\Core\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Windows\EMPWindowGLFW.cpp">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\Core\Windows\EMPWindowManager.cpp">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpanadaEngine\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EmpanadaEngine\Core\Audio\EMPAudioManager.h">
+      <Filter>Source Files\Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Audio\IEMPAudio.h">
+      <Filter>Source Files\Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Audio\IEMPAudioBuffer.h">
+      <Filter>Source Files\Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioBufferOpenAL.h">
+      <Filter>Source Files\Core\Audio\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Audio\OpenAL\EMPAudioOpenAL.h">
+      <Filter>Source Files\Core\Audio\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\EMPCollisionComponent.h">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\EMPTransformComponent.h">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\IEMPComponent.h">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Components\EMPAnimationComponent.h">
+      <Filter>Source Files\Core\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPMesh.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPModel.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPSprite.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\IEMPEntity.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPCamara.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPGameObject.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\ECS\Entities\EMPMaterial.h">
+      <Filter>Source Files\Core\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPKeyEvent.h">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPMouseEvent.h">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPWindowEvent.h">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPEvent.h">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPEventDelegate.h">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Events\EMPEventManager.h">
+      <Filter>Source Files\Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPTimerGLFW.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPTimerManager.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\IEMPTimer.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPGameApp.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPGameConfiguration.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPMacros.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Game\EMPSinglenton.h">
+      <Filter>Source Files\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPFontManager.h">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPText.h">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPButton.h">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\GUI\EMPCharacter.h">
+      <Filter>Source Files\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\EMPInputManager.h">
+      <Filter>Source Files\Core\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\IEMPInput.h">
+      <Filter>Source Files\Core\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\EMPInputFactory.h">
+      <Filter>Source Files\Core\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Inputs\EMPInputGLFW.h">
+      <Filter>Source Files\Core\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Render\IEMPBuffer.h">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Render\IEMPTexture.h">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Render\EMPRenderManager.h">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Render\OpengGL\EMPBufferOpenGL.h">
+      <Filter>Source Files\Core\Render\OpengGL</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Render\OpengGL\EMPTextureOpenGL.h">
+      <Filter>Source Files\Core\Render\OpengGL</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Scenes\EMPSceneManager.h">
+      <Filter>Source Files\Core\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Scenes\IEMPScene.h">
+      <Filter>Source Files\Core\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Shaders\EMPVertex.h">
+      <Filter>Source Files\Core\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Shaders\IEMPShader.h">
+      <Filter>Source Files\Core\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Shaders\EMPShaderOpenGL.h">
+      <Filter>Source Files\Core\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Utils\EMPColor.h">
+      <Filter>Source Files\Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Utils\EMPCollision.h">
+      <Filter>Source Files\Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Windows\IEMPWindow.h">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowConfiguration.h">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowFactory.h">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowGLFW.h">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Core\Windows\EMPWindowManager.h">
+      <Filter>Source Files\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Lib\Window\glfw\glfw3.h">
+      <Filter>Source Files\Lib\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpanadaEngine\Lib\Window\glfw\glfw3native.h">
+      <Filter>Source Files\Lib\glfw</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

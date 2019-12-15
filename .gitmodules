@@ -1,0 +1,12 @@
+[submodule "EmpanadaEngine/EmpanadaEngine/Lib/Common/glfw"]
+	path = EmpanadaEngine/EmpanadaEngine/Lib/Common/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "EmpanadaEngine/EmpanadaEngine/Lib/Common/glm"]
+	path = EmpanadaEngine/EmpanadaEngine/Lib/Common/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "EmpanadaEngine/EmpanadaEngine/Lib/Common/stb"]
+	path = EmpanadaEngine/EmpanadaEngine/Lib/Common/stb
+	url = https://github.com/nothings/stb.git
+[submodule "EmpanadaEngine/EmpanadaEngine/Lib/Common/freetype2"]
+	path = EmpanadaEngine/EmpanadaEngine/Lib/Common/freetype2
+	url = https://github.com/aseprite/freetype2.git
